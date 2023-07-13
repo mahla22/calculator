@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-height: 100vh;
+    background-color: lavender;
+}
+.container {
+    width: 360px;
+    height: 520px;
+    position: relative;
+    top:30px ;
+    left: 30%;
+    padding: 15px;
+    border: 3px outset rgb(54, 57, 58);
+    border-radius: 2%;
+    background: linear-gradient(to bottom,#cdccd6,#8b84d1,#344dbd);
+
+}
+.display {
+    width: 350px;
+    height: 80px;
+    border: 1px inset rgb(219, 227, 230);
+    background-color: lavender;
+    font-size: 2em;
+    overflow: hidden;
+    text-indent: 3px;
+    padding-top:30px ;
+    margin: 10px 0 0 3px;
+}
+.opContainer {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+
+    
+}
+.style {
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px 2px 0;
+    border: 1px unset rgba(238, 225, 237, 0.884);
+    border-radius: 15%;
+    background-color: rgb(171, 165, 207);
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+    
+}
